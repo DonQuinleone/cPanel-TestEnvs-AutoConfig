@@ -1,0 +1,10 @@
+[Unit]
+Description=Setup environment for internal software testing
+After=network.target cpanel.service
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /root/setup_testenv.sh
+
+[Install]
+WantedBy=multi-user.target
