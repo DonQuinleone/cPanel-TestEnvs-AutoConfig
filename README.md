@@ -1,5 +1,5 @@
 # cPanel-TestEnvs-AutoConfig
-Automate IP address and DNS updates for cPanel accounts in a test environment context.
+Automate IP address and DNS updates for cPanel/WHM in a test environment context.
 
 Ordinarily, it would be necessary to run through a number of steps in the WHM interface to complete setup (since the IP address and various other details are set on install); this script removes the need for that.
 
